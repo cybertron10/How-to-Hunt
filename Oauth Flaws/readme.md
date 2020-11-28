@@ -20,3 +20,4 @@ Things need to check while hunting:
 
 **Race Condition on Oauth**
 
+1. https://pandaonair.com/2020/06/11/race-conditions-exploring-the-possibilities.html
