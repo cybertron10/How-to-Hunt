@@ -88,7 +88,7 @@ BruteForcingOTP
 
 Otp is checked at client side and returned in response
 
-#Reference
+# Reference
 
 https://blog.compactbyte.com/2019/11/30/aneka-bug-bypass-otp-one-time-password/
 
