@@ -3,7 +3,6 @@
 
 
 
-## Oauth token Leaks flaws
+**Oauth token Leaks flaws**
 
-> Token leak through postMessage Vulnerability https://hackerone.com/reports/314814
-
+1. Token leak through postMessage Vulnerability https://hackerone.com/reports/314814
