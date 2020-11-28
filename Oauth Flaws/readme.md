@@ -6,3 +6,17 @@
 **Oauth token Leaks flaws**
 
 1. Token leak through postMessage Vulnerability https://hackerone.com/reports/314814
+2. Token steal by changing redirect_uri param https://hackerone.com/reports/665651
+
+
+**Oauth CSRF**
+It can be Login CSRF or it also can be Oauth CSRF on account connect/link fucntion.
+Login CSRF sometimes accepted by program. CSRF on oauth connect leads to account takeover.
+
+Things need to check while hunting:
+1. State Parameter is missing.
+2. State Parameter is there but not validated at server side same as using another user's state parameter.
+3. State Parameter is Predictable.
+
+**Race Condition on Oauth**
+
