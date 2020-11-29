@@ -7,6 +7,7 @@
 
 1. Token leak through postMessage Vulnerability https://hackerone.com/reports/314814
 2. Token steal by changing redirect_uri param https://hackerone.com/reports/665651
+3. Token Steal usin IDN Homograph attack https://hackerone.com/reports/861940
 
 
 **Oauth CSRF**
