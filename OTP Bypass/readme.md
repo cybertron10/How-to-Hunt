@@ -61,9 +61,6 @@ Mostly it will not be accepted. There are rare cases some companies may accept i
 ```
 In PHP, your otp is 123456 you can try replacing parameters with otp[]=12356. Another example if the backend accepts JSON: {"userid": "x123", "otp":"123456"}then we change it to {"userid": "x123", "otp":[]}
 
-BruteForcingOTP
-
-Otp is checked at client side and returned in response
 ```
 
 # Reference
