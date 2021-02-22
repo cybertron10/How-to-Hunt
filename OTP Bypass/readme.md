@@ -56,7 +56,6 @@ Mostly it will not be accepted. There are rare cases some companies may accept i
 
 * Bypassing 2fa via CSRF attack on disable 2FA:
 
-* Bypassing 2fa using backup code request & response:
 
 * Removing the OTP field, sometimes the OTP can be bypassed
 ```
@@ -70,5 +69,12 @@ Otp is checked at client side and returned in response
 # Reference
 
 https://blog.compactbyte.com/2019/11/30/aneka-bug-bypass-otp-one-time-password/
-
-https://link.medium.com/FIRrM4Jl05 https://link.medium.com/tKqQY1Ml05 https://link.medium.com/ne4pwoOl05 https://link.medium.com/hhdBnCPl05 https://link.medium.com/YFLGk4Ql05 https://link.medium.com/rml43ESl05 https://link.medium.com/ds1k5XTl05 https://link.medium.com/35IjaPVl05 https://link.medium.com/4l50R4Xl05
+https://link.medium.com/FIRrM4Jl05 
+https://link.medium.com/tKqQY1Ml05 
+https://link.medium.com/ne4pwoOl05 
+https://link.medium.com/hhdBnCPl05 
+https://link.medium.com/YFLGk4Ql05 
+https://link.medium.com/rml43ESl05 
+https://link.medium.com/ds1k5XTl05 
+https://link.medium.com/35IjaPVl05 
+https://link.medium.com/4l50R4Xl05
