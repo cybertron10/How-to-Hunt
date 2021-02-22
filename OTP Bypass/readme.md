@@ -2,7 +2,7 @@
 ```
 Capture the correct otp response and replace that response with wrong otp response.
 
-Sensitive data in response (Visible of otp in response,Password reset token in response)
+Sensitive data in response (Visible otp in response,Password reset token in response)
 
 ```
 * Default OTP like 0000,1234 etc
