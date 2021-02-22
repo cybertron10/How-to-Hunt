@@ -27,27 +27,6 @@ No RateLimit while generating otp Can create python script which will generate a
 
 * Using Burp FakeIP Plugin
 
-
-* Password reset poisoning:
-```
-Host: target.com
-
-X-Forwarded-Host: evil.com
-
-
-Host: evil.com
-
-X-Forwarded-Host: target.com
-```
-
-* Oauth redirection to token leakage:
-
-
-* Weird Bypass:
-```
-Remove the country code +91 to [ ] Modify the number from +91 xxxxx-xxxxx to [] xxxxx-xxxxx
-```
-
 * Rate Limit Bypass:
 ```
 &user%5Bemail%5D=email@here.com%00 - and keep adding %00 everytime you are rate limited. After a while you can go back to just %00 as it resets after so long.
